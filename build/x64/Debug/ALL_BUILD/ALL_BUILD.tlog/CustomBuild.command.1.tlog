@@ -1,0 +1,10 @@
+^C:\PLAYGROUND\C++\NEW FOLDER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Playground/C++/New folder" "-BC:/Playground/C++/New folder/build" --check-stamp-file "C:/Playground/C++/New folder/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

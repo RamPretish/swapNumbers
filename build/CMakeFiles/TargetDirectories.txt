@@ -1,0 +1,3 @@
+C:/Playground/C++/New folder/build/CMakeFiles/ALL_BUILD.dir
+C:/Playground/C++/New folder/build/CMakeFiles/ZERO_CHECK.dir
+C:/Playground/C++/New folder/build/swapNumbers/CMakeFiles/swapNumbers.dir
