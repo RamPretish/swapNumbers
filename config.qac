@@ -1,0 +1,13 @@
+# Example QAC Configuration File
+
+# Specify the source code language
+language = cpp
+
+# Specify paths to source files or directories
+file_paths = swapNumbers/swapNumbers.cpp
+
+# Output format (XML, Text, etc.)
+output_format = xml
+
+# Output file where results will be written
+output_file = qac_results.xml
