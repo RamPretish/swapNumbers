@@ -11,10 +11,6 @@ void swapNumber(int &a, int &b) {
 	b = temp;
 }
 
-void sayDisplay(){
-	cout << "Hello" << endl;
-}
-
 int main()
 {
 	int a = 10;
